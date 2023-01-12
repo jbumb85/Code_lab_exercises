@@ -18,6 +18,10 @@ puts "Please enter a sentence:"
 user_input = gets.chomp
 puts "You typed #{user_input}"
 puts "What number do you want to multiply by 2"
-user_number = gets.chomp
+user_number = gets.chomp.to_i
 multiply_by_two = user_number * 2
-puts "#{user_number} multiplied by 2 is #{multiply_by_two}"
+  puts "#{user_number} multiplied by 2 is #{multiply_by_two}"
+puts "What number do you want to divide by 2"
+user_number_2 = gets.chomp.to_i
+divide_by_two = user_number_2 / 2
+  puts "#{user_number_2} divided by 2 is #{divide_by_two}"
